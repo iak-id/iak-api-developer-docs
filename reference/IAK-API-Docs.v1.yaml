@@ -2,6 +2,10 @@ openapi: 3.0.0
 info:
   title: IAK API Docs
   version: '1.0'
+  contact:
+    email: techsupport@mobilepulsa.com
+    name: Tect Support
+  description: Api For Prepaid and Postpaid Desc Here
 servers:
   - url: 'https://testprepaid.mobilepulsa.net'
     description: Postpaid Sandbox
@@ -16,7 +20,8 @@ paths:
         description: Id of an existing user.
     get:
       summary: Get User Info by User ID
-      tags: []
+      tags:
+        - test user
       responses:
         '200':
           description: User Found
@@ -88,6 +93,8 @@ paths:
                   lastName: Baker
                   dateOfBirth: '1985-10-02'
         description: Patch user properties to update.
+      tags:
+        - test user
   /user:
     post:
       summary: Create New User
@@ -142,12 +149,9 @@ paths:
                   dateOfBirth: '1996-08-24'
         description: Post the necessary fields for the API to create a new user.
       description: Create a new user.
+      tags:
+        - test user
   '/v1/legacy/index/{type}/{operator}':
-    get:
-      summary: Your GET endpoint
-      tags: []
-      responses: {}
-      operationId: get-v1-legacy-index
     post:
       summary: ''
       operationId: post-v1-legacy-index
@@ -162,17 +166,9 @@ paths:
                 properties:
                   data:
                     type: array
-                    uniqueItems: true
-                    minItems: 1
+                    uniqueItems: false
                     items:
-                      required:
-                        - pulsa_code
-                        - pulsa_op
-                        - pulsa_nominal
-                        - pulsa_price
-                        - pulsa_type
-                        - masaaktif
-                        - status
+                      type: object
                       properties:
                         pulsa_code:
                           type: string
@@ -193,7 +189,14 @@ paths:
                           minLength: 1
                         status:
                           type: string
-                          minLength: 1
+                      required:
+                        - pulsa_code
+                        - pulsa_op
+                        - pulsa_nominal
+                        - pulsa_price
+                        - pulsa_type
+                        - masaaktif
+                        - status
                 required:
                   - data
               examples:
@@ -221,149 +224,7 @@ paths:
                         pulsa_type: malaysia
                         masaaktif: '0'
                         status: active
-            application/xml:
-              schema:
-                description: ''
-                type: object
-                properties:
-                  pulsa:
-                    type: array
-                    uniqueItems: true
-                    minItems: 1
-                    items:
-                      type: object
-                      properties:
-                        pulsa_code:
-                          type: string
-                          minLength: 1
-                        pulsa_op:
-                          type: string
-                          minLength: 1
-                        pulsa_nominal:
-                          type: string
-                          minLength: 1
-                        pulsa_price:
-                          type: number
-                        pulsa_type:
-                          type: string
-                          minLength: 1
-                        masaaktif:
-                          type: string
-                          minLength: 1
-                        status:
-                          type: string
-                          minLength: 1
-                      required:
-                        - pulsa_code
-                        - pulsa_op
-                        - pulsa_nominal
-                        - pulsa_price
-                        - pulsa_type
-                        - masaaktif
-                        - status
-                required:
-                  - pulsa
-              examples:
-                Response Pricelist XML:
-                  value: |-
-                    <?xml version="1.0"?>
-                    <mp>
-                        <pulsa>
-                            <pulsa_code>hindosat10000</pulsa_code>
-                            <pulsa_op>Indosat</pulsa_op>
-                            <pulsa_nominal>10000</pulsa_nominal>
-                            <pulsa_price>11000</pulsa_price>
-                            <pulsa_type>pulsa</pulsa_type>
-                            <masaaktif>15</masaaktif>
-                            <status>active</status>
-                        </pulsa>
-                        <pulsa>
-                            <pulsa_code>hindosat100000</pulsa_code>
-                            <pulsa_op>Indosat</pulsa_op>
-                            <pulsa_nominal>100000</pulsa_nominal>
-                            <pulsa_price>100000</pulsa_price>
-                            <pulsa_type>pulsa</pulsa_type>
-                            <masaaktif>60</masaaktif>
-                            <status>active</status>
-                        <pulsa>
-                            <pulsa_code>hindosat1000000</pulsa_code>
-                            <pulsa_op>Indosat</pulsa_op>
-                            <pulsa_nominal>1000000</pulsa_nominal>
-                            <pulsa_price>950000</pulsa_price>
-                            <pulsa_type>pulsa</pulsa_type>
-                            <masaaktif>60</masaaktif>
-                            <status>active</status>
-                        </pulsa>
-                    <mp>
-        '':
-          content:
-            application/json:
-              schema:
-                description: ''
-                type: object
-                properties:
-                  data:
-                    type: array
-                    uniqueItems: true
-                    minItems: 1
-                    items:
-                      required:
-                        - pulsa_code
-                        - pulsa_op
-                        - pulsa_nominal
-                        - pulsa_price
-                        - pulsa_type
-                        - masaaktif
-                        - status
-                      properties:
-                        pulsa_code:
-                          type: string
-                          minLength: 1
-                        pulsa_op:
-                          type: string
-                          minLength: 1
-                        pulsa_nominal:
-                          type: string
-                          minLength: 1
-                        pulsa_price:
-                          type: number
-                        pulsa_type:
-                          type: string
-                          minLength: 1
-                        masaaktif:
-                          type: string
-                          minLength: 1
-                        status:
-                          type: string
-                          minLength: 1
-                required:
-                  - data
-              examples:
-                Pricelist Json Response:
-                  value:
-                    data:
-                      - pulsa_code: alfamart100
-                        pulsa_op: Alfamart Voucher
-                        pulsa_nominal: Voucher Alfamart Rp 100.000
-                        pulsa_price: 100000
-                        pulsa_type: voucher
-                        masaaktif: '0'
-                        status: active
-                      - pulsa_code: altel10
-                        pulsa_op: Malaysia Topup
-                        pulsa_nominal: '10'
-                        pulsa_price: 39750
-                        pulsa_type: malaysia
-                        masaaktif: '0'
-                        status: active
-                      - pulsa_code: altel100
-                        pulsa_op: Malaysia Topup
-                        pulsa_nominal: '100'
-                        pulsa_price: 397500
-                        pulsa_type: malaysia
-                        masaaktif: '0'
-                        status: active
-          description: ''
+          headers: {}
       description: API to get prepaid pricelist
       requestBody:
         content:
@@ -392,15 +253,22 @@ paths:
                   commands: pricelist
                   username: '089682779598'
                   sign: 4e7390d69fce6f04a6d1c4c7c3f29fb3
+                  status: all
+        description: Request body for Pricelist Prepaid
+      tags:
+        - prepaid-v1
+        - pricelist
     parameters:
       - schema:
           type: string
         name: type
         in: path
+        required: true
       - schema:
           type: string
         name: operator
         in: path
+        required: true
 components:
   schemas:
     User:
@@ -444,3 +312,7 @@ components:
         - lastName
         - email
         - emailVerified
+tags:
+  - name: test user
+  - name: prepaid-v1
+  - name: pricelist
