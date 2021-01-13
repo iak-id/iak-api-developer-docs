@@ -22,6 +22,7 @@ paths:
       summary: Get User Info by User ID
       tags:
         - test user
+        - v1
       responses:
         '200':
           description: User Found
@@ -151,6 +152,7 @@ paths:
       description: Create a new user.
       tags:
         - test user
+        - v1
   '/v1/legacy/index/{type}/{operator}':
     post:
       summary: ''
@@ -316,3 +318,4 @@ tags:
   - name: test user
   - name: prepaid-v1
   - name: pricelist
+  - name: v1
