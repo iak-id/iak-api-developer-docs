@@ -1,5 +1,5 @@
 ---
-tags: [prepaid-v1]
+tags: [getting-started]
 ---
 
 # Test
