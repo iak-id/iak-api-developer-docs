@@ -260,6 +260,7 @@ paths:
       tags:
         - prepaid-v1
         - pricelist
+      parameters: []
     parameters:
       - schema:
           type: string
