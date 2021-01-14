@@ -314,6 +314,28 @@ components:
         - lastName
         - email
         - emailVerified
+    Test:
+      title: Test
+      type: object
+      properties:
+        id:
+          type: string
+  responses:
+    Test:
+      description: Example response
+      content:
+        application/json:
+          schema:
+            properties:
+              id:
+                type: string
+  parameters:
+    Test:
+      name: Test
+      in: path
+      required: true
+      schema:
+        type: string
 tags:
   - name: test user
   - name: prepaid-v1
