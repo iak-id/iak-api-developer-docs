@@ -1,3 +1,6 @@
+x-stoplight:
+  docs:
+    showModels: false 
 openapi: 3.0.0
 info:
   title: IAK API Docs
@@ -280,9 +283,6 @@ components:
       title: User
       type: object
       description: ''
-      x-stoplight:
-        docs:
-          showModels: false
       x-examples:
         Alice Smith:
           id: 142
