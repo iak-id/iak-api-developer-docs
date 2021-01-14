@@ -14,6 +14,8 @@ Our API has predictable, resource oriented URL, and use HTTPS.
 - Term "PULSA" means "Mobile Topup / Recharge"
 - We'd suggest to set the time out to 60 seconds for postpaid transaction
 
+![Check Balance](../../assets/images/checkbalance.png)
+
 | Column A | Column B | Column C |
 | -------- | -------- | -------- |
 | A1       | B1       | C1       |
