@@ -227,6 +227,8 @@ paths:
                         masaaktif: '0'
                         status: active
           headers: {}
+        '201':
+          $ref: '#/components/responses/Test'
       description: API to get prepaid pricelist
       requestBody:
         content:
