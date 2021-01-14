@@ -33,6 +33,12 @@
 
 ### Request
 
+<!-- theme: warning -->
+
+> ### Watch Out!
+>
+> You can only use **JSON** and **XML**!
+
 <!--
 type: tab
 title: Request JSON
@@ -81,6 +87,12 @@ title: Request XML
 
 ### Success Response 
 
+<!-- theme: success -->
+
+> ### Success response!
+>
+> Here is success response!
+
 ```json
 {
 	"data": {
@@ -90,6 +102,13 @@ title: Request XML
 ```
 
 ### Testing
+
+<!-- theme: info -->
+
+> ### A thing to know
+>
+> You can testing development and production
+
 <!--
 type: tab
 title: Development
