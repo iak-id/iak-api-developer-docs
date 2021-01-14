@@ -16,10 +16,12 @@
   "properties": {
     "commands": {
       "type": "string",
-      "description": "balance"
+      "description": "balance",
+      "default": "balance"
     },
     "username": {
-      "type": "string"
+      "type": "string",
+      "description": "Your Registered Phone Number"
     },
     "sign": {
       "type": "string",
