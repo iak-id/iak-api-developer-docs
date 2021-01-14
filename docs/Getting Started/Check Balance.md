@@ -4,12 +4,30 @@
 
 ### Parameter
 
-| Field | Type | Description |
-| -------- | -------- | -------- |
-| A1       | B1       | C1       |
-| A2       | B2       | C2       |
-| A3       | B3       | C3       |
+| Field    | Type     | Description                           |
+| -------- | -------- | ------------------------------------- |
+| commands | string   | balance                               |
+| username | string   | Your Registered Phone Number          |
+| sign     | string   | Signature - md5(username+api_key+"bl")|
 
+```json json_schema
+{
+  "type": "object",
+  "properties": {
+    "commands": {
+      "type": "string",
+      "description": "balance"
+    },
+    "username": {
+      "type": "string"
+    },
+    "sign": {
+      "type": "string",
+      "description": "md5(username+api_key+'bl')"
+    }
+  }
+}
+```
 
 ### Request
 
@@ -43,11 +61,21 @@ title: Request XML
 
 ### Response Paramater
 
-| Field | Type | Description |
-| -------- | -------- | -------- |
-| A1       | B1       | C1       |
-| A2       | B2       | C2       |
-| A3       | B3       | C3       |
+| Field    | Type     | Description |
+| -------- | -------- | ----------- |
+| balance  | Double   | Your Balance|
+
+
+```json json_schema
+{
+  "type": "object",
+  "properties": {
+    "balance": {
+      "type": "number"
+    }
+  }
+}
+```
 
 ### Success Response 
 
