@@ -280,6 +280,9 @@ components:
       title: User
       type: object
       description: ''
+      x-stoplight:
+        docs:
+          showModels: false
       x-examples:
         Alice Smith:
           id: 142
