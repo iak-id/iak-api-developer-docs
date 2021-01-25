@@ -186,3 +186,9 @@ components:
         - lastName
         - email
         - emailVerified
+    Tests-model-postpaid:
+      title: Tests-model-postpaid
+      type: object
+      properties:
+        id:
+          type: string
