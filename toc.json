@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "type": "divider",
+      "title": "Documentation"
+    },
+    {
+      "type": "item",
+      "title": "Home",
+      "uri": "docs/home.md"
+    },
+    {
+      "type": "group",
+      "title": "Integration",
+      "items": [
+        {
+          "type": "item",
+          "title": "Quick Start",
+          "uri": "docs/quick-start.md"
+        },
+        {
+          "type": "item",
+          "title": "Testing in Sandbox",
+          "uri": "docs/testing-in-sandbox.md"
+        },
+        {
+          "type": "item",
+          "title": "Callback",
+          "uri": "docs/callback.md"
+        },
+        {
+          "type": "item",
+          "title": "IP Whitelist",
+          "uri": "docs/ip-whitelist.md"
+        },
+        {
+          "type": "item",
+          "title": "Transaction Restriction",
+          "uri": "docs/transaction-restriction.md"
+        },
+        {
+          "type": "item",
+          "title": "SDK",
+          "uri": "docs/sdk.md"
+        },
+        {
+          "type": "item",
+          "title": "API References",
+          "uri": "docs/api-references.md"
+        },
+        {
+          "type": "item",
+          "title": "Postman Collection",
+          "uri": "docs/postman-collection.md"
+        }
+      ]
+    },
+    {
+      "type": "item",
+      "title": "Web Transaction",
+      "uri": "docs/web-transaction.md"
+    },
+    {
+      "type": "item",
+      "title": "Account",
+      "uri": "docs/account.md"
+    },
+    {
+      "type": "item",
+      "title": "Finance Report",
+      "uri": "docs/finance-report.md"
+    },
+    {
+      "type": "item",
+      "title": "Security",
+      "uri": "docs/security.md"
+    },
+    {
+      "type": "item",
+      "title": "FAQ",
+      "uri": "docs/faq.md"
+    }
+  ]
+}
