@@ -1,5 +1,5 @@
 {
-  "exclude": ["Models"],
+  "exclude": ["reference/models"],
   "formats": {
     "openapi": {
       "rootDir": "reference",
