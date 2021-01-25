@@ -1,3 +1,7 @@
+---
+tags: [documentation]
+---
+
 # FAQ
 
 The beginning of an awesome article...
