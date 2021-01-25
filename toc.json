@@ -79,6 +79,11 @@
       "type": "item",
       "title": "FAQ",
       "uri": "docs/faq.md"
+    },
+    {
+      "type": "item",
+      "title": "API References",
+      "uri": "reference/IAK-API-Docs.v1.yaml"
     }
   ]
 }
