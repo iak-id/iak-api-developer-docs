@@ -1,6 +1,6 @@
 x-stoplight:
   docs:
-    showModels: false 
+    showModels: false
 openapi: 3.0.0
 info:
   title: IAK API Docs
@@ -154,8 +154,8 @@ paths:
         description: Post the necessary fields for the API to create a new user.
       description: Create a new user.
       tags:
-        - test user
-        - v1
+        - prepaid-v1
+        - pricelist
   '/v1/legacy/index/{type}/{operator}':
     post:
       summary: ''
