@@ -1,5 +1,5 @@
 {
-  "exclude": ["docs/integration/"],
+  "exclude": ["docs"],
   "formats": {
     "openapi": {
       "rootDir": "reference",
