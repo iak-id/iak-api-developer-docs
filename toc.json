@@ -82,8 +82,13 @@
     },
     {
       "type": "item",
-      "title": "API References",
-      "uri": "reference/IAK-API-Docs.v1.yaml"
+      "title": "API Prepaid Reference",
+      "uri": "reference/api-prepaid-docs.v1.yaml"
+    },
+    {
+      "type": "item",
+      "title": "API Postpaid Reference",
+      "uri": "reference/api-postpaid-docs.v1.yaml"
     }
   ]
 }
