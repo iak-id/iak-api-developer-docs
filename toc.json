@@ -16,42 +16,42 @@
         {
           "type": "item",
           "title": "Quick Start",
-          "uri": "docs/quick-start.md"
+          "uri": "docs/integration/quick-start.md"
         },
         {
           "type": "item",
           "title": "Testing in Sandbox",
-          "uri": "docs/testing-in-sandbox.md"
+          "uri": "docs/integration/testing-in-sandbox.md"
         },
         {
           "type": "item",
           "title": "Callback",
-          "uri": "docs/callback.md"
+          "uri": "docs/integration/callback.md"
         },
         {
           "type": "item",
           "title": "IP Whitelist",
-          "uri": "docs/ip-whitelist.md"
+          "uri": "docs/integration/ip-whitelist.md"
         },
         {
           "type": "item",
           "title": "Transaction Restriction",
-          "uri": "docs/transaction-restriction.md"
+          "uri": "docs/integration/transaction-restriction.md"
         },
         {
           "type": "item",
           "title": "SDK",
-          "uri": "docs/sdk.md"
+          "uri": "docs/integration/sdk.md"
         },
         {
           "type": "item",
           "title": "API References",
-          "uri": "docs/api-references.md"
+          "uri": "docs/integration/api-references.md"
         },
         {
           "type": "item",
           "title": "Postman Collection",
-          "uri": "docs/postman-collection.md"
+          "uri": "docs/integration/postman-collection.md"
         }
       ]
     },
