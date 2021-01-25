@@ -4,4 +4,4 @@ tags: [documentation]
 
 # FAQ
 
-The beginning of an awesome article...
+Di sini isinya tentang FAQ. Bisa liat di drive apa aja FAQ nya

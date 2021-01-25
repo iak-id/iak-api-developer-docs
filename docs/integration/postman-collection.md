@@ -1,3 +1,5 @@
-# Postman-Collection
+# Postman Collection
 
-The beginning of an awesome article...
+Di sini kasih contoh hit lewat postman. 
+Kasih tutorial juga kalau bisa di import pake OAS. 
+OAS bisa di download dari docs.

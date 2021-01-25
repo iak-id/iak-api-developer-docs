@@ -1,3 +1,3 @@
-# Transaction-Restriction
+# Transaction Restriction
 
-The beginning of an awesome article...
+Di sini jelaskan tentang high restriction dan one number one day

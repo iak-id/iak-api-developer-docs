@@ -2,6 +2,6 @@
 tags: [documentation]
 ---
 
-# Finance-Report
+# Finance Report
 
-The beginning of an awesome article...
+Di sini isinya Report, tapi report di iak.id(?)

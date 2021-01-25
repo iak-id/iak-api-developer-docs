@@ -1,3 +1,3 @@
-# IP-Whitelist
+# IP Whitelist
 
-The beginning of an awesome article...
+Di sini jelasin tentang settingan IP Whitelist (hanya prod saja ya)
