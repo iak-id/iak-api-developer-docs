@@ -84,16 +84,6 @@
       "type": "item",
       "title": "FAQ",
       "uri": "docs/faq.md"
-    },
-    {
-      "type": "item",
-      "title": "API Prepaid Reference",
-      "uri": "reference/api-prepaid-docs.v1.yaml"
-    },
-    {
-      "type": "item",
-      "title": "API Postpaid Reference",
-      "uri": "reference/api-postpaid-docs.v1.yaml"
     }
   ]
 }
