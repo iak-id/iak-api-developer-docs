@@ -52,11 +52,6 @@
           "type": "item",
           "title": "API References",
           "uri": "docs/integration/api-references.md"
-        },
-        {
-          "type": "item",
-          "title": "Postman Collection",
-          "uri": "docs/integration/postman-collection.md"
         }
       ]
     },
