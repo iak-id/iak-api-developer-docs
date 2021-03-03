@@ -25,6 +25,11 @@
         },
         {
           "type": "item",
+          "title": "Quick Start",
+          "uri": "docs/integration/api-key.md"
+        },
+        {
+          "type": "item",
           "title": "Testing in Sandbox",
           "uri": "docs/integration/testing-in-sandbox.md"
         },
