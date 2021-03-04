@@ -22,7 +22,7 @@ Explore into our service through REST API. We have 2 products main category:
 - Prepaid, read the docs [here](docs/api-reference/docs/prepaid%20v1%20(legacy)/prepaid-flow.md)
 - Postpaid, read the docs [here](docs/api-reference/docs/postpaid/postpaid-flow.md)
 
-Here's a [quick start](.docs/integration/quick-start.md) to integrate with our service.
+Here's a [quick start](integration/quick-start.md) to integrate with our service.
 
 ## Whitelist IP
 
