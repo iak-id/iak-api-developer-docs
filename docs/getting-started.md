@@ -5,7 +5,12 @@ tags: [documentation]
 # Getting Started
 
 IAK developer is a powerfull dashboard web based to help you integrate with our proudcts. We mainly have 2 
-website: [iak.id](https://iak.id) and [developer.iak.id](https://developer.mobilepulsa.net). iak.id will help you to monitor overall transaction and access to our products while developer.iak.id will help you develop and integrate to our digital products. 
+website: 
+
+  1. [iak.id](https://iak.id) 
+  2. [developer.iak.id](https://developer.mobilepulsa.net) 
+
+iak.id will help you to monitor overall transaction and access to our products while developer.iak.id will help you develop and integrate to our digital products. 
 
 ## Register IAK Account
 
