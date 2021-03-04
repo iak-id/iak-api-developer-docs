@@ -47,9 +47,11 @@ Here's a quick start to integrate into our service :
    1. Success
    2. Failed
 
-    Set Sandbox [Callback URL](https://developer.mobilepulsa.net/development)
+    Set your callback URL for [sandbox](https://developer.mobilepulsa.net/development) and [production](https://developer.mobilepulsa.net/production/ip).
 
-    Set Production [Callback URL](https://developer.mobilepulsa.net/production/ip)
+<!-- theme: info -->
+
+> Learn [here](./../security.md) to secure your callback URL.
 
 6. Top Up Balance
 
