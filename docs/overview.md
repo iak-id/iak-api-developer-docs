@@ -9,12 +9,16 @@ website: [iak.id](https://iak/id) and [developer.iak.id](https://developer.mobil
 
 ## Register IAK Account
 
-Before start using IAK service, you need to register [here](https://developer.mobilepulsa.net/signin).
+Before start using IAK service, you need to register first.
 After completing the registration, you will be able to use your account in sandbox environment.
+
+[Register here](https://developer.mobilepulsa.net/signin)
 
 ## Activate Account
 
-In order to enable your account in production environment, complete your account information in [API Setting->User Information](https://developer.mobilepulsa.net/user_information).
+In order to enable your account in production environment, complete your account information.
+
+[Complete here](https://developer.mobilepulsa.net/user_information)
 
 ## Integrate With Our Products
 
@@ -26,4 +30,6 @@ Here's a [quick start](integration/quick-start.md) to integrate with our service
 
 ## Whitelist IP
 
-Before doing real transaction in production environment, you neel to whitelist your IP so our service can recognize your server. You can whitelist your IP [here](https://developer.mobilepulsa.net/production/ip).
+Before doing real transaction in production environment, you neel to whitelist your IP so our service can recognize your server.
+
+[Whitelist your IP](https://developer.mobilepulsa.net/production/ip)
