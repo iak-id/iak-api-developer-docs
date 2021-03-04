@@ -12,7 +12,7 @@ Here's a quick start to integrate into our service :
 
     While do integration in sandbox environment, you can see sandbox report to monitor the sandbox transaction.
 
-    ![Sandbox Report](../../assets/images/sandbox report.png)
+    ![Sandbox Report](../../assets/images/sandboxreport.png)
 
     For **prepaid** products, you must manually change the transaction status to success or failed in sandbox report. But in production environment, you don't need to manually change the transaction status because we are the one who will update the status manually through callback URL.
 
