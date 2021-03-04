@@ -28,8 +28,6 @@ Explore into our service through REST API. We have 2 products main category:
 
 Here's a [quick start](integration/quick-start.md) to integrate with our service.
 
-## Whitelist IP
+---
 
-Before doing real transaction in production environment, you neel to whitelist your IP so our service can recognize your server.
-
-[Whitelist your IP](https://developer.mobilepulsa.net/production/ip)
+  **Question?** See our [FAQ](docs/developer-documentation/docs/faq.md) or contact us at [techsupport@mobilepulsa.com](mailto:techsupport@mobilepulsa.com)
