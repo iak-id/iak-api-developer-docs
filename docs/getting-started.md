@@ -27,9 +27,9 @@ In order to enable your account in production environment, complete your account
 
 ## Integrate With Our Products
 
-Explore into our service through REST API. We have 2 products main category:
-- Prepaid, read the docs [here](docs/api-reference/docs/prepaid%20v1%20(legacy)/prepaid-flow.md)
-- Postpaid, read the docs [here](docs/api-reference/docs/postpaid/postpaid-flow.md)
+Explore into our service through REST API. There are several way to connected with IAK:
+- Integrate through our [api reference](docs/api-reference/docs/introduction.md)
+- Use our [SDK](./integration/sdk.md)
 
 Here's a [quick start](integration/quick-start.md) to integrate with our service.
 
