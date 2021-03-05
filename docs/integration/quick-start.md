@@ -19,25 +19,19 @@ Here's a quick start to integrate into our service :
 
 3. Testing sandbox
 
-    While do integration in sandbox environment, you can see sandbox report to monitor the sandbox transaction.
+    IAK provide sandbox report to help you integrate in sandbox environment. Everything in sandbox report is only simulation, not real transaction.
 
-    ![Sandbox Report](../../assets/images/sandboxreport.png)
-
-    For **prepaid** products, you must manually change the transaction status to success or failed in sandbox report. But in production environment, you don't need to manually change the transaction status because we are the one who will update the status manually through callback URL.
-
-    ![Sandbox Report Manual Success](../../assets/images/sandbox-report-manual-success.png)
+    Learn [here](./testing-in-sandbox.md) to explore sandbox report.
 
 4. Whitelist IP
 
-    In sandbox environment you don't need to whitelist IP but when it in production environment, you need to whitelist IP so our service can allow your account to do real transaction from your whitelist IP and deny outside whitelist IP.
-
-    ![Whitelist IP](../../assets/images/whitelist-ip.png)
+    You can increase the security by set whitelist IP. 
 
 <!-- theme: warning -->
 
-> ### Watch Out!
-> Actually you can allow transaction from any IP but if you use this option, any person from any IP can use your 
-> account if they know your API KEY. We suggest you to use whitelist IP and input your IP for security reason.
+> ### Important!
+> It's really important to whitelist your IP. 
+> [Learn more](../security.md#whitelist-your-ip)
 
 5. Set Callback URL
 
@@ -64,6 +58,7 @@ Here's a quick start to integrate into our service :
     Now you are ready to call API in production environment. To switch between sandbox and production you only need do the following:
 
    1. Change base URL from sandbox to production
+
       Learn here about base URL [prepaid](docs/api-reference/docs/prepaid%20v1%20(legacy)/base-url.md) and [postpaid](docs/api-reference/docs/postpaid/base-url.md).
 
    2. Change API key from sandbox to production
