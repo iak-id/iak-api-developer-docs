@@ -53,11 +53,11 @@ Here's a quick start to integrate into our service :
 
 > Learn [here](./../security.md) to secure your callback URL.
 
-6. Top Up Balance
+6. Topup Deposit
 
-    After you integrate your web or apps into our API, you need to top up deposit. We will deduct your deposit based on the price.
+    After you integrate your web or apps into our API, you need to topup deposit. We will deduct your deposit based on the price.
 
-    Learn [here](./../top-up-balance.md) how to top up.
+    Learn [here](./../topup-deposit.md) how to topup.
 
 7. Call Production API
 
