@@ -4,12 +4,9 @@ Here's a quick start to integrate into our service :
 
 1. Get API Key
 
-    To connect with our API, you need API key as identifier. There are 2 types of API key:
+    To connect with our API, you need API key as identifier. Get your API key [here](https://developer.mobilepulsa.net/home)
 
-      1. API Key Sandbox (For sandbox environment)
-      2. API Key Production (For production environment)
-
-    Get your API key [here](https://developer.mobilepulsa.net/home)
+    Learn [more](./api-key.md) about API key.
 
 2. Read API Reference
 

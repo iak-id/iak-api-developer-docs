@@ -40,11 +40,6 @@
         },
         {
           "type": "item",
-          "title": "IP Whitelist",
-          "uri": "docs/integration/ip-whitelist.md"
-        },
-        {
-          "type": "item",
           "title": "Transaction Restriction",
           "uri": "docs/integration/transaction-restriction.md"
         },
@@ -56,7 +51,7 @@
         {
           "type": "item",
           "title": "API References",
-          "uri": "https://docs.iak.id/docs/developer-documentation/docs/getting-started.md"
+          "uri": "https://docs.iak.id/docs/api-reference/docs/introduction.md"
         }
       ]
     },
