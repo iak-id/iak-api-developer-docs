@@ -35,11 +35,6 @@
         },
         {
           "type": "item",
-          "title": "Callback",
-          "uri": "docs/integration/callback.md"
-        },
-        {
-          "type": "item",
           "title": "Transaction Restriction",
           "uri": "docs/integration/transaction-restriction.md"
         },
@@ -56,9 +51,20 @@
       ]
     },
     {
-      "type": "item",
-      "title": "Topup Deposit",
-      "uri": "docs/topup-deposit.md"
+      "type": "group",
+      "title": "Deposit",
+      "items": [
+        {
+          "type": "item",
+          "title": "Topup Deposit",
+          "uri": "docs/topup-deposit.md"
+        },
+        {
+          "type": "item",
+          "title": "Deposit Limit Reminder",
+          "uri": "docs/limit-reminder.md"
+        }
+      ]
     },
     {
       "type": "item",

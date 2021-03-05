@@ -1,6 +1,8 @@
 # Topup Deposit
 
 In order to do real transaction in production environment, you need to topup deposit. Every transaction in production environment will deduct your balance in IAK wallet. 
+You can also set reminder [here](./limit-reminder.md) when deposit amount below certain level. 
+
 Here's a step how to topup deposit in iak:
 
 ## Go To Topup Menu
@@ -43,6 +45,10 @@ You will be directed to topup confirmation after completing the topup form. To c
 > Please make sure include **Transfer Note** as remark and **Transfer Amount** exactly without **rounding**.
 > Deposit payments above 21.00 GMT +7 will be processed on the next day.
 
+## Transfer Notification
 
+You can see in the [notification](https://iak.id/webapp/notification) for all of transfer detail that need to be done.
+
+![Top Up Confirmation](../assets/images/topup-deposit/topup-notification.png)
 
    
