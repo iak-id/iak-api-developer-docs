@@ -70,4 +70,4 @@ Here's a quick start to integrate into our service :
 
 ---
 
-  **Question?** See our [FAQ](docs/developer-documentation/docs/faq.md) or contact us at [techsupport@mobilepulsa.com](mailto:techsupport@mobilepulsa.com)
+  **Question?** See our [FAQ](../faq.md) or contact us at [techsupport@mobilepulsa.com](mailto:techsupport@mobilepulsa.com)
