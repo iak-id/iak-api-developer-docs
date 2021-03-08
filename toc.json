@@ -73,13 +73,13 @@
     },
     {
       "type": "item",
-      "title": "Account",
-      "uri": "docs/account.md"
+      "title": "User Management",
+      "uri": "docs/user-management.md"
     },
     {
       "type": "item",
-      "title": "Finance Report",
-      "uri": "docs/finance-report.md"
+      "title": "Transaction Report",
+      "uri": "docs/transaction-report.md"
     },
     {
       "type": "item",
