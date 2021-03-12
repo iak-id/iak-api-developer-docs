@@ -1,6 +1,4 @@
-# Testing in Sandbox
-
-## Sandbox Report
+# Sandbox Report
 
 While do integration in sandbox environment, you can see report in sandbox environment to see the sandbox transaction details.
 Sandbox report is usefull when you are integrating with our service so you can see the transaction status.
