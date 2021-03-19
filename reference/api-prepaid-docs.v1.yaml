@@ -1,3 +1,6 @@
+x-stoplight:
+  docs:
+    showModels: false
 openapi: 3.0.0
 info:
   title: IAK API Docs
@@ -151,8 +154,8 @@ paths:
         description: Post the necessary fields for the API to create a new user.
       description: Create a new user.
       tags:
-        - test user
-        - v1
+        - prepaid-v1
+        - pricelist
   '/v1/legacy/index/{type}/{operator}':
     post:
       summary: ''
@@ -227,6 +230,8 @@ paths:
                         masaaktif: '0'
                         status: active
           headers: {}
+        '201':
+          $ref: '#/components/responses/Test'
       description: API to get prepaid pricelist
       requestBody:
         content:
@@ -260,6 +265,7 @@ paths:
       tags:
         - prepaid-v1
         - pricelist
+      parameters: []
     parameters:
       - schema:
           type: string
@@ -314,6 +320,28 @@ components:
         - lastName
         - email
         - emailVerified
+    Test:
+      title: Test
+      type: object
+      properties:
+        id:
+          type: string
+  responses:
+    Test:
+      description: Example response
+      content:
+        application/json:
+          schema:
+            properties:
+              id:
+                type: string
+  parameters:
+    Test:
+      name: Test
+      in: path
+      required: true
+      schema:
+        type: string
 tags:
   - name: test user
   - name: prepaid-v1

@@ -1,0 +1,95 @@
+{
+  "items": [
+    {
+      "type": "divider",
+      "title": "Documentation"
+    },
+    {
+      "type": "item",
+      "title": "Getting Started",
+      "uri": "docs/getting-started.md"
+    },
+    {
+      "type": "item",
+      "title": "CheckBalanceExample",
+      "uri": "docs/Getting Started/Check Balance.md"
+    },
+    {
+      "type": "group",
+      "title": "Integration",
+      "items": [
+        {
+          "type": "item",
+          "title": "Quick Start",
+          "uri": "docs/integration/quick-start.md"
+        },
+        {
+          "type": "item",
+          "title": "API Key",
+          "uri": "docs/integration/api-key.md"
+        },
+        {
+          "type": "item",
+          "title": "Sandbox Report",
+          "uri": "docs/integration/sandbox-report.md"
+        },
+        {
+          "type": "item",
+          "title": "Transaction Restriction",
+          "uri": "docs/integration/transaction-restriction.md"
+        },
+        {
+          "type": "item",
+          "title": "SDK",
+          "uri": "docs/integration/sdk.md"
+        },
+        {
+          "type": "item",
+          "title": "API References",
+          "uri": "https://docs.iak.id/docs/api-reference/docs/introduction.md"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Deposit",
+      "items": [
+        {
+          "type": "item",
+          "title": "Topup Deposit",
+          "uri": "docs/topup-deposit.md"
+        },
+        {
+          "type": "item",
+          "title": "Deposit Limit Reminder",
+          "uri": "docs/limit-reminder.md"
+        }
+      ]
+    },
+    {
+      "type": "item",
+      "title": "Web Transaction",
+      "uri": "docs/web-transaction.md"
+    },
+    {
+      "type": "item",
+      "title": "User Management",
+      "uri": "docs/user-management.md"
+    },
+    {
+      "type": "item",
+      "title": "Transaction Report",
+      "uri": "docs/transaction-report.md"
+    },
+    {
+      "type": "item",
+      "title": "Security",
+      "uri": "docs/security.md"
+    },
+    {
+      "type": "item",
+      "title": "FAQ",
+      "uri": "docs/faq.md"
+    }
+  ]
+}
