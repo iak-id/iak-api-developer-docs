@@ -1,3 +1,0 @@
-# Test
-
-Test dalam folder
