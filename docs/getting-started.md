@@ -4,7 +4,7 @@ tags: [documentation]
 
 # Getting Started
 
-IAK developer is a powerfull dashboard web based to help you integrate with our proudcts. We mainly have 2 
+IAK developer is a powerfull dashboard web based to help you integrate with our products. We mainly have 2 
 website: 
 
   1. [iak.id](https://iak.id) 
@@ -28,7 +28,7 @@ In order to enable your account in production environment, complete your account
 ## Integrate With Our Products
 
 Explore into our service through REST API. There are several way to connected with IAK:
-- Integrate through our [api reference](docs/api-reference/docs/introduction.md)
+- Integrate through our [api reference](../docs/api-reference/docs/introduction.md)
 - Use our [SDK](./integration/sdk.md)
 
 Here's a [quick start](integration/quick-start.md) to integrate with our service.
