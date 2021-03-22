@@ -12,6 +12,8 @@ Below you will find answers to commonly asked questions.
 
 ## Registration
 
+---
+
 Q: How to register as API user?
   
 A: To register as API user can be done [here](https://developer.mobilepulsa.net/signin#signup)
@@ -34,6 +36,16 @@ A: No. Your can register freely. [Register now](https://developer.mobilepulsa.ne
 
 ## Change Account
 
+---
+
 Q: Can I change phone number?
 
 A: No, you can [register](https://developer.mobilepulsa.net/signin#signup) again if you want change your phone number.
+
+---
+
+Q: Can I change email?
+
+A: Yes, you can contact us at [techsupport@mobilepulsa.com](mailto:techsupport@mobilepulsa.com) to send letter of request.
+
+---
