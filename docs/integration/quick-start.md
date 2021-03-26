@@ -18,7 +18,7 @@ Here's a quick start to integrate into our service :
 
     IAK provide sandbox report to help you integrate in sandbox environment. Everything in sandbox report is only simulation, not real transaction.
 
-    Learn [here](./testing-in-sandbox.md) to explore sandbox report.
+    Learn [here](./sandbox-report.md) to explore sandbox report.
 
 4. Whitelist IP
 
