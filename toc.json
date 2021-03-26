@@ -10,11 +10,6 @@
       "uri": "docs/getting-started.md"
     },
     {
-      "type": "item",
-      "title": "CheckBalanceExample",
-      "uri": "docs/Getting Started/Check Balance.md"
-    },
-    {
       "type": "group",
       "title": "Integration",
       "items": [
