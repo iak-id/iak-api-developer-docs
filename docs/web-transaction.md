@@ -21,7 +21,7 @@ When you activate this feature, you don't need to input OTP when login to [mobil
 
 <!-- theme: info -->
 
-> When deactive this feature, if your deposit is below 20 millions IDR, then its required for you to change your
+> When activate this feature, if your deposit is below 20 millions IDR, then its required for you to change your
 > password. **The new password cannot be the same as the old one**.
 >
 > ![API user can login without OTP](../assets/images/api-user-can-log-on-without-otp.png)
