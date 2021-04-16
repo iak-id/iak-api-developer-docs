@@ -3,7 +3,7 @@
 While do integration in sandbox environment, you can see report in sandbox environment to see the sandbox transaction details.
 Sandbox report is usefull when you are integrating with our service so you can see the transaction status.
 
-You can access sandbox report from [here](https://developer.mobilepulsa.net/sandbox).
+You can access sandbox report from [here](https://developer.iak.id/sandbox-report).
 
   ![Sandbox Report](../../assets/images/sandbox-report/sandboxreport.png)
 

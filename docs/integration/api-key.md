@@ -10,11 +10,11 @@ There are 2 types of API key:
 
 <!-- theme: info -->
 
-> Get your API Key [here](https://developer.mobilepulsa.net/home)
+> Get your API Key [here](https://developer.iak.id/access-key)
 
 <!-- theme: danger -->
 
 > **Always keep your API Key confidential.**
 
-![API Key](../../assets/images/api-key.jpg)
+![API Key](../../assets/images/api-key.png)
 

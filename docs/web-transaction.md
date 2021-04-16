@@ -5,7 +5,7 @@ tags: [documentation]
 # Web Transaction
 
 IAK provide web transaction that can accessed at [mobilepulsa.com](https://mobilepulsa.com). With web transaction, you can do purchase our prepaid or postpaid product through web.
-To use this feature, you can set in [api setting](https://developer.mobilepulsa.net/production/ip).
+To use this feature, you can set in [production setting](https://developer.iak.id/prod-setting).
 
 ![Web Transaction](../assets/images/web-transaction.png)
 
