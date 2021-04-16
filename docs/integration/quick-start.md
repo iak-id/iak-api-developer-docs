@@ -4,7 +4,7 @@ Here's a quick start to integrate into our service :
 
 1. Get API Key
 
-    To connect with our API, you need API key as identifier. Get your API key [here](https://developer.mobilepulsa.net/home)
+    To connect with our API, you need API key as identifier. Get your API key [here](https://developer.iak.id/access-key)
 
     Learn [more](./api-key.md) about API key.
 
@@ -38,7 +38,7 @@ Here's a quick start to integrate into our service :
    1. Success
    2. Failed
 
-    Set your callback URL for [sandbox](https://developer.mobilepulsa.net/development) and [production](https://developer.mobilepulsa.net/production/ip).
+    Set your callback URL for [sandbox](https://developer.iak.id/dev-setting) and [production](https://developer.iak.id/prod-setting).
 
 <!-- theme: info -->
 
@@ -59,7 +59,7 @@ Here's a quick start to integrate into our service :
       Learn here about base URL [prepaid](docs/api-reference/docs/prepaid%20v1%20(legacy)/base-url.md) and [postpaid](docs/api-reference/docs/postpaid/base-url.md).
 
    2. Change API key from sandbox to production
-      Get your API key [here](https://developer.mobilepulsa.net/home)
+      Get your API key [here](https://developer.iak.id/access-key)
 
 8. See Report
 
