@@ -16,7 +16,7 @@ Below you will find answers to commonly asked questions.
 
 Q: How to register as API user?
   
-A: To register as API user can be done [here](https://developer.mobilepulsa.net/signin#signup)
+A: To register as API user can be done [here](https://auth.iak.id/signup)
 
 ---
 
@@ -30,7 +30,7 @@ A: Make sure your email is valid. If you still don't receive verification email,
 
 Q: Do you need to pay to register as API user?
 
-A: No. Your can register freely. [Register now](https://developer.mobilepulsa.net/signin#signup).
+A: No. Your can register freely. [Register now](https://auth.iak.id/signup).
 
 ---
 
@@ -40,7 +40,7 @@ A: No. Your can register freely. [Register now](https://developer.mobilepulsa.ne
 
 Q: Can I change phone number?
 
-A: No, you can [register](https://developer.mobilepulsa.net/signin#signup) again if you want change your phone number.
+A: No, you can [register](https://auth.iak.id/signup) again if you want change your phone number.
 
 ---
 
@@ -94,31 +94,31 @@ A: Yes, you can delete sub user [here](https://iak.id/webapp/subuser) and choose
 
 Q: Can one customer number do multiple transactions?
 
-A: Yes, you can go to [iak developer](https://developer.mobilepulsa.net/production/ip) at **API Setting -> Production Settings** than activate **Allow multiple transactions for same number**. This permissoin allow the same customer number can do transaction more than once in a day to all denom. By default, customer number only can do one transaction per denom per day.
+A: Yes, you can go to [iak developer](https://developer.iak.id/prod-setting) at **API Setting -> Production Setting** than activate **Multiple transactions for same number**. This permissoin allow the same customer number can do transaction more than once in a day to all denom. By default, customer number only can do one transaction per denom per day.
 
 --- 
 
 Q: How to allow API account to do transaction through web mobilepulsa.com?
 
-A: You can go to [iak developer](https://developer.mobilepulsa.net/production/ip) at **API Setting -> Production Settings** than activate **API user can transaction on website mobilepulsa.com**.
+A: You can go to [iak developer](https://developer.iak.id/prod-setting) at **API Setting -> Production Setting** than activate **Web transaction**.
 
 ---
 
 Q: Can I restrict one customer number only can do one transaction to all denom in a day?
 
-A: Yes, you can go to [iak developer](https://developer.mobilepulsa.net/production/ip) at **API Setting -> Production Settings** than activate **High restriction**. Permission **Allow multiple transactions for same number** won't be applied if you activate High restriction.
+A: Yes, you can go to [iak developer](https://developer.iak.id/prod-setting) at **API Setting -> Production Setting** than activate **High restriction**. Permission **Multiple transactions for same number** won't be applied if you activate High restriction.
 
 ---
 
 Q: Can I whitelist specific IP only to make transaction?
 
-A: Yes, you can go to [iak developer](https://developer.mobilepulsa.net/production/ip) at **API Setting -> Production Settings** than deactivate **Allow transactions from any IP**. After that you can input your IP in **IP Whitelist** section.
+A: Yes, you can go to [iak developer](https://developer.iak.id/prod-setting) at **API Setting -> Production Setting** than deactivate **Allow transactions from any IP**. After that you can input your IP in **IP Settings** section.
 
 --- 
 
 Q: Can I open whitelist IP from any IP?
 
-A: Yes, you can go to [iak developer](https://developer.mobilepulsa.net/production/ip) at **API Setting -> Production Settings** than deactivate **Allow transactions from any IP**.
+A: Yes, you can go to [iak developer](https://developer.iak.id/prod-setting) at **API Setting -> Production Setting** than deactivate **Allow transactions from any IP**.
 
 <!-- theme: danger -->
 
@@ -140,7 +140,7 @@ A: No, but you can request the change and email us at [budiman@mobilepulsa.com](
 
 Q: How to get API key production?
 
-A: First you must activate your account at [here](https://iak.id/webapp/production). After activate your account, you can go to [iak developer](https://developer.mobilepulsa.net/home) to get your production API key.
+A: First you must activate your account at [here](https://iak.id/webapp/production). After activate your account, you can go to [iak developer](https://developer.iak.id/access-key) to get your production API key.
 
 ---
 
@@ -150,7 +150,7 @@ A: First you must activate your account at [here](https://iak.id/webapp/producti
 
 Q: Where can I see digital products pricelist?
 
-A: You can get pricelist [here](https://iak.id/webapp/pricelist) or through API. To get pricelist via API, read our docs [here](https://iak-api.stoplight.io/docs/api-reference/docs/introduction.md).
+A: You can get pricelist [here](https://iak.id/webapp/pricelist) or through API. To get pricelist via API, read our docs [here](https://docs.iak.id/docs/api-reference/docs/introduction.md).
 
 ---
 
@@ -200,7 +200,7 @@ A: No, only one action for one transaction.
 
 Q: Where do callback sent in development?
 
-A: You can set callback URL development at [iak developer](https://developer.mobilepulsa.net/development) than ffill callback URL than we will send callback response to your callback URL in development.
+A: You can set callback URL development at [iak developer](https://developer.iak.id/dev-setting) than fill callback URL than we will send callback response to your callback URL in development.
 
 ---
 
@@ -216,7 +216,7 @@ A: Usually undefined response given because of several reason. Make sure that:
   - URL is right and there is no **space** in the URL.
   - JSON / XML body is valid
   - Header is right. For JSON set header `Content-Type: application/json` and XML `Content-Type: application/xml`
-Learn [here](https://iak-api.stoplight.io/docs/api-reference/docs/request.md) for API request.
+Learn [here](https://docs.iak.id/docs/api-reference/docs/request.md) for API request.
 
 ---
 
@@ -233,7 +233,7 @@ A: Max 24 hours
 Q: Can I auto detect operator when top up?
 
 A: Yes but only for **pulsa** product type. You can use **pulsa[nominal]** as the product code. IAK will automatically detect the operator corresponding to customer number.
-Learn [more](https://iak-api.stoplight.io/docs/api-reference/docs/prepaid%20v1%20(legacy)/core%20api/top%20up/auto-detect-operator.md) about auto detect operator.
+Learn [more](https://docs.iak.id/docs/api-reference/docs/prepaid%20v1%20(legacy)/core%20api/top%20up/auto-detect-operator.md) about auto detect operator.
 
 ---
 
@@ -249,7 +249,7 @@ A: You can mark up the price as your profit margin.
 
 Q: Can I use callback for postpaid?
 
-A: No. You can use check status in postpaid. Learn [more](https://iak-api.stoplight.io/docs/api-reference/docs/postpaid/core%20api/check-status.md) about check status.
+A: No. You can use check status in postpaid. Learn [more](https://docs.iak.id/docs/api-reference/docs/postpaid/core%20api/check-status.md) about check status.
 
 ---
 
