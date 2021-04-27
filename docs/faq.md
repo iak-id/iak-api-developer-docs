@@ -8,7 +8,7 @@ Below you will find answers to commonly asked questions.
 
 <!-- theme: info -->
 
-> Still have question? Contact us [now](mailto:techsupport@mobilepulsa.net)
+> Still have question? Contact us [now](mailto:techsupport@mobilepulsa.com)
 
 ## Registration
 
