@@ -1,5 +1,5 @@
 ---
-tags: [documentation]
+tags: [faq]
 ---
 
 # FAQ
@@ -8,7 +8,7 @@ Below you will find answers to commonly asked questions.
 
 <!-- theme: info -->
 
-> Still have question? Contact us [now](mailto:techsupport@mobilepulsa.com)
+> Still have question? Contact us at [techsupport@mobilepulsa.com](mailto:techsupport@mobilepulsa.com)
 
 ## Registration
 
@@ -287,4 +287,4 @@ A: Payment only can be done with deposit.
 
 Q: Will it be taxed every time I do deposit?
 
-A: No, tax is based on transaction. If you need tax invoice contact us at [accounting@mobilepulsa.com](mailto: accounting@mobilepulsa.com).
+A: No, tax is based on transaction. If you need tax invoice contact us at [accounting@mobilepulsa.com](mailto:accounting@mobilepulsa.com).
