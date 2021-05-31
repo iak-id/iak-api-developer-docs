@@ -20,17 +20,17 @@ A: To register as API user can be done [here](https://auth.iak.id/signup)
 
 ---
 
-Q: I don't receive email varification
+<!-- Q: I don't receive email varification
 
 A: Make sure your email is valid. If you still don't receive verification email, in [here](https://developer.mobilepulsa.net/signin#signup) click **Resend Now** button so we can resend verification to your email.
 
 ![Resend Email](../assets/images/faq/resend-email.png)
 
----
+--- -->
 
 Q: Do you need to pay to register as API user?
 
-A: No. Your can register freely. [Register now](https://auth.iak.id/signup).
+A: No. Your can register freely. [Register now](https://auth.iak.id/signup)
 
 ---
 
