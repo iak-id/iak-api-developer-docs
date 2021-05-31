@@ -33,11 +33,6 @@
           "title": "Transaction Restriction",
           "uri": "docs/integration/transaction-restriction.md"
         },
-        // {
-        //   "type": "item",
-        //   "title": "SDK",
-        //   "uri": "docs/integration/sdk.md"
-        // },
         {
           "type": "item",
           "title": "API References",
