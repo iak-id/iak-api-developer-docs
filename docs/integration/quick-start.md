@@ -12,7 +12,7 @@ Here's a quick start to integrate into our service :
 
     Start to explore our documentation to integrate with our products.
 
-    [Read the docs](https://docs.iak.id/docs/api-reference/docs/introduction.md)
+    [Read the docs](https://api.iak.id/docs/api-reference/docs/introduction.md)
 
 3. Testing sandbox
 
