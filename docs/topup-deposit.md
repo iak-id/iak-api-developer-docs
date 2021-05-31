@@ -7,7 +7,7 @@ Here's a step how to topup deposit in iak:
 
 ## Go To Topup Menu
 
-Login to [iak.id](https://iak.id) and go to [Top Up](https://iak.id/webapp/deposit/topup) menu.
+Login to [iak.id](https://auth.iak.id) and go to [Top Up](https://iak.id/webapp/deposit/topup) menu.
 
 ![Top Up Menu](../assets/images/topup-deposit/topup-menu-sidebar.png)
 

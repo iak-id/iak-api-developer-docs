@@ -22,7 +22,7 @@ A: To register as API user can be done [here](https://auth.iak.id/signup)
 
 Q: I don't receive email varification
 
-A: Make sure your email is valid. If you still don't receive verification email, in [https://developer.mobilepulsa.net/signin#signup](https://developer.mobilepulsa.net/signin#signup) click **Resend Now** button so we can resend verification to your email.
+A: Make sure your email is valid. If you still don't receive verification email, in [here](https://developer.mobilepulsa.net/signin#signup) click **Resend Now** button so we can resend verification to your email.
 
 ![Resend Email](../assets/images/faq/resend-email.png)
 
@@ -150,7 +150,7 @@ A: First you must activate your account at [here](https://iak.id/webapp/producti
 
 Q: Where can I see digital products pricelist?
 
-A: You can get pricelist [here](https://iak.id/webapp/pricelist) or through API. To get pricelist via API, read our docs [here](https://docs.iak.id/docs/api-reference/docs/introduction.md).
+A: You can get pricelist [here](https://iak.id/webapp/pricelist) or through API. To get pricelist via API, read our docs [here](https://api.iak.id/docs/api-reference/docs/introduction.md).
 
 ---
 
@@ -216,7 +216,7 @@ A: Usually undefined response given because of several reason. Make sure that:
   - URL is right and there is no **space** in the URL.
   - JSON / XML body is valid
   - Header is right. For JSON set header `Content-Type: application/json` and XML `Content-Type: application/xml`
-Learn [here](https://docs.iak.id/docs/api-reference/docs/request.md) for API request.
+Learn [here](https://api.iak.id/docs/api-reference/docs/request.md) for API request.
 
 ---
 
@@ -233,7 +233,7 @@ A: Max 24 hours
 Q: Can I auto detect operator when top up?
 
 A: Yes but only for **pulsa** product type. You can use **pulsa[nominal]** as the product code. IAK will automatically detect the operator corresponding to customer number.
-Learn [more](https://docs.iak.id/docs/api-reference/docs/prepaid%20v1%20(legacy)/core%20api/top%20up/auto-detect-operator.md) about auto detect operator.
+Learn [more](https://api.iak.id/docs/api-reference/docs/prepaid/core/v2/transaction/auto-detect.md) about auto detect operator.
 
 ---
 
@@ -249,7 +249,7 @@ A: You can mark up the price as your profit margin.
 
 Q: Can I use callback for postpaid?
 
-A: No. You can use check status in postpaid. Learn [more](https://docs.iak.id/docs/api-reference/docs/postpaid/core%20api/check-status.md) about check status.
+A: No. You can use check status in postpaid. Learn [more](https://api.iak.id/docs/api-reference/docs/postpaid/core/check-status.md) about check status.
 
 ---
 
