@@ -12,7 +12,7 @@ Here's a quick start to integrate into our service :
 
     Start to explore our documentation to integrate with our products.
 
-    [Read the docs](https://api.iak.id/docs/api-reference/docs/introduction.md)
+    [Read the docs](https://api.iak.id/docs/reference/docs/introduction.md)
 
 3. Testing sandbox
 
@@ -56,7 +56,7 @@ Here's a quick start to integrate into our service :
 
    1. Change base URL from sandbox to production
 
-      Learn here about base URL [prepaid](docs/api-reference/docs/prepaid%20v1%20(legacy)/base-url.md) and [postpaid](docs/api-reference/docs/postpaid/base-url.md).
+      Learn here about base URL [prepaid](docs/reference/docs/prepaid%20v1%20(legacy)/base-url.md) and [postpaid](docs/reference/docs/postpaid/base-url.md).
 
    2. Change API key from sandbox to production
       Get your API key [here](https://developer.iak.id/access-key)

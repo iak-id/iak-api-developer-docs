@@ -150,7 +150,7 @@ A: First you must activate your account at [here](https://iak.id/webapp/producti
 
 Q: Where can I see digital products pricelist?
 
-A: You can get pricelist [here](https://iak.id/webapp/pricelist) or through API. To get pricelist via API, read our docs [here](https://api.iak.id/docs/reference/docs/introduction.md).
+A: You can get pricelist [here](https://iak.id/webapp/pricelist) or through API. To get pricelist via API, read our API Reference [here](https://api.iak.id/docs/reference/docs/introduction.md).
 
 ---
 
