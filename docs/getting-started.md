@@ -29,7 +29,7 @@ In order to enable your account in production environment, complete your account
 
 Explore into our service through REST API. There are several way to connected with IAK:
 - Integrate through our [api reference](https://api.iak.id/docs/reference/docs/introduction.md)
-- Integrate through our [SKD](https://api.iak.id/docs/sdk/docs/introduction.md)
+- Integrate through our [SDK](https://api.iak.id/docs/sdk/docs/introduction.md)
 
 Here's a [quick start](integration/quick-start.md) to integrate with our service.
 
