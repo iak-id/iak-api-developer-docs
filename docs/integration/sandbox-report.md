@@ -22,7 +22,7 @@ Everytime you change the transaction status by clicking the button, IAK will sen
 
 ### Change Transaction Status
 
-In postpaid, sandbox report can be used to see the transaction details like status, price, admin, selling price, etc. For **postpaid** products, you must manually change the transaction status from pending to success or failed in sandbox report. But in production environment, you don't need to manually change the transaction status because we are the one who will update the status manually through callback URL.
+In postpaid, sandbox report can be used to see the transaction details like status, price, admin, selling price, etc. For **postpaid** products, you must manually change the transaction status from pending to success or failed in sandbox report. But in production environment, you don't need to manually change the transaction status because we are the one who will update the status.
 
 ![Sandbox Report Postpaid Manual Success](../../assets/images/sandbox-report/sandbox-report-postpaid-manual-success.png)
 
