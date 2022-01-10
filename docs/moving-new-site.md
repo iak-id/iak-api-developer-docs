@@ -42,9 +42,9 @@ We provided new insight dashboard so you can have insight for the transaction mo
 
 You can also see dashboard that appear in old site (**Transaction Count and Total Sales**) at https://iak.id/webapp/dashboard
 
-![Old Dashboard](../assets/images/moving-new-site/dashboard-old.png 'Old Dashboard')
+![Old Dashboard](../assets/images/moving-new-site/dashboard-old.png)
 
-![IAK id Dashboard](../assets/images/moving-new-site/iak-id-dashboard.png 'New Dashboard')
+![IAK id Dashboard](../assets/images/moving-new-site/iak-id-dashboard.png)
 
 ### API Key
 In old developer, API key development and production appear at https://developer.iak.id/home
