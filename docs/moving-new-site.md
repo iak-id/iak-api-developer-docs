@@ -1,14 +1,14 @@
 # Moving From Old to New Developer Site 
 
-We have launched newly designed developer site that is https://developer.iak.id
-Our old site (https://developer.mobilepulsa.net) soon will be un-maintained so make sure you use our new site.
+We have launched newly designed developer site at https://developer.iak.id.
+Our old site (https://developer.mobilepulsa.net) will not be maintained so make sure to use new developer.
 
-We have 2 domains for new website, that is https://developer.iak.id and https://iak.id
+We have 2 domains for new website, that is https://developer.iak.id and https://iak.id.
 See [here](./getting-started.md) for more information about different between those two website.
 
 ## What's the difference
 
-In order to moving from old site (https://developer.mobilepulsa.net) to new site (https://developer.iak.id) there are several change that you can use as guide:
+In order moving from old site (https://developer.mobilepulsa.net) to new site (https://developer.iak.id) there are several change that can be used as guidence:
 
 Page | Old | New
 ---------|----------|---------
@@ -31,12 +31,12 @@ Page | Old | New
 ### Home
 
 #### New Guideline
-In new developer home page, we provided some guide line for new user to complete the task needed before to use API untill production mode.
+In new developer home page, we provided some guideline for new user to use our API from start until production ready.
 
 ![https://developer.iak.id/home](../assets/images/moving-new-site/home.png)
  
 #### Dashboard
-We provided new insight dashboard so you can have insight for the transaction more detailed.
+We provided new dashboard so you can have insight for more detailed transaction.
 
 ![New Dashboard](../assets/images/moving-new-site/dashboard-new.png)
 
@@ -56,7 +56,7 @@ In new developer, API key appear at https://developer.iak.id/access-key
 ![https://developer.iak.id/access-key](../assets/images/moving-new-site/api-key-new.png)
 
 ### Documentation
-We have made some improvement to our documentation such as adding how to use developer web and SDK documentation meanwhile our old documentation only contain API documentation. We have 3 Sub menu new documentation:
+We have made some improvement to our documentation such as adding how to use developer web and SDK documentation meanwhile our old documentation only contain API documentation. We have 3 Sub menu for new documentation:
  
  1. API Reference
 This is the main api documentation (replacing the old one in https://developer.mobilepulsa.net/documentation)
