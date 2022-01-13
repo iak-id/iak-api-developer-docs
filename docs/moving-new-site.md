@@ -61,7 +61,7 @@ We have made some improvement to our documentation such as adding how to use dev
  1. [API Reference](https://api.iak.id/docs/reference)
 This is the main api documentation (replacing the old one in https://developer.mobilepulsa.net/documentation)
 
- 2. [Developer Platform](https://api.iak.id/docs/platform)
+ 2. [Developer Platform](getting-started.md)
  This documentation is for general use of https://developer.iak.id
 
  3. [SDK Reference](https://api.iak.id/docs/sdk)
