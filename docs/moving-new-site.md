@@ -58,11 +58,11 @@ In new developer, API key appear at https://developer.iak.id/access-key
 ### Documentation
 We have made some improvement to our documentation such as adding how to use developer web and SDK documentation meanwhile our old documentation only contain API documentation. We have 3 Sub menu for new documentation:
  
- 1. API Reference
+ 1. [API Reference](https://api.iak.id/docs/reference)
 This is the main api documentation (replacing the old one in https://developer.mobilepulsa.net/documentation)
 
- 2. Developer Platform
+ 2. [Developer Platform](https://api.iak.id/docs/platform)
  This documentation is for general use of https://developer.iak.id
 
- 3. SDK Reference
+ 3. [SDK Reference](https://api.iak.id/docs/sdk)
  This is docuemntation for our SDK. You can see more detail there for supported programming language for the SDK.
