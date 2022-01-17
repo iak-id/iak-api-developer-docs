@@ -10,6 +10,11 @@
       "uri": "docs/getting-started.md"
     },
     {
+      "type": "item",
+      "title": "Migrating to New Site",
+      "uri": "docs/moving-new-site.md"
+    },
+    {
       "type": "group",
       "title": "Integration",
       "items": [
