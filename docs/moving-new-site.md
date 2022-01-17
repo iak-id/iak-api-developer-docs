@@ -10,6 +10,15 @@ See [here](./getting-started.md) for more information about different between th
 
 In order moving from old site (https://developer.mobilepulsa.net) to new site (https://developer.iak.id) there are several change that can be used as guidence:
 
+### Language
+Right now we support 2 languages that is **Indonesia** and **English**. 
+To change language you can follow this step.
+
+![lang1](../assets/images/moving-new-site/lang.png)
+![lang2](../assets/images/moving-new-site/lang2.png)
+
+### Page
+
 Page | Old | New
 ---------|----------|---------
  [Home](#home) | https://developer.mobilepulsa.net/home | https://developer.iak.id/home
